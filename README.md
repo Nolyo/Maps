@@ -1,5 +1,6 @@
 Le README devrait contenir les fonctionnalitées du projet !
 
+Yiha !!!
 
 Du style :
 
@@ -12,3 +13,6 @@ Menu
 
 
 Fin voila quoi !
+
+
+C'est de la bombe !

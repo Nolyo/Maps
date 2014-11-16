@@ -1,0 +1,219 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clr{
+    clear: both;
+}
+body{
+    margin-top: 20px;
+    line-height: 1;
+    background-color: #F2F2F2;
+}
+.container{
+}
+::-webkit-scrollbar{
+    width:10px;
+    border-right:2px solid #bbb;
+}
+
+::-webkit-scrollbar-track{
+    background-color:#eaeaea;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#00B8D4;
+}
+
+/* FORM */
+.big{
+    width: 100%;
+    background-color: #E0E0E0;
+    line-height: 5.4em;
+}
+.form{
+    width: 1345px;
+    height: 85px;
+    margin: auto;
+}
+#formMap{
+    display: inline-block;
+}
+input[type=text]{
+    width: 300px;
+    border: 1px solid #269abc;
+    padding: 10px 5px;
+    display: inline-block;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+input[type=submit],.btn-success{
+    border-radius: 7px;
+    border: 1px solid #449d44;
+    padding: 10px 5px;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #449d44;
+}
+button{
+    height: 37px;
+    padding: 13px;
+    width: 40px;
+    border: 1px solid #269abc;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    background-image: url("../img/geoloc.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+/*Choice mode*/
+#choice_mode{
+
+    display: inline-block;
+    padding: 0 85px;
+    margin-left: 75px;
+    border-radius: 7px;
+    vertical-align: top;
+}
+#car{
+    background: url("../img/car.png");
+}
+#walking{
+    background: url("../img/walking.png");
+}
+#bycycle{
+    background: url("../img/bycycle.png");
+}
+#transit{
+    background: url("../img/transit.png");
+}
+#car,#walking,#bycycle,#transit{
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    width: 25px;
+    height: 30px;
+    background-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 0 0 25px;
+}
+.bt{
+    border-bottom:3px solid #269abc;
+}
+.panel_info{
+    display: none;
+    margin-top: 15px;
+}
+label{
+    font-weight: bold;
+    padding: 3px;
+    color: #00B8D4;
+}
+/* MAP GOOGLE*/
+.print_map{
+    margin: auto;
+    width: 1345px;
+    padding-top: 20px;
+}
+#canvasMap{
+    width: 800px;
+    height: 600px;
+    border: 15px inset #31b0d5;
+    border-radius: 4px;
+    display: inline-block;
+
+}
+.bloc_maps{
+    position: relative;
+}
+
+#panel{
+    padding: 3px;
+    display: none;
+    width: 445px;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 30px;
+    vertical-align: top;
+    border: 15px inset #31b0d5;
+}
+/* OPTION */
+.moreOption{
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+.title{
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    color: #00B8D4;
+    margin-bottom: 20px;
+}
+#searchType{
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #31b0d5;
+}
+.fullscreen{
+    position: fixed;
+    right: 15px;
+    bottom: 0px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+#showChat{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
